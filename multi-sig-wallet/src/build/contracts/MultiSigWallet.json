@@ -13391,135 +13391,16 @@
     "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
   },
   "networks": {
-    "3": {
-      "events": {
-        "0x5cbe105e36805f7820e291f799d5794ff948af2a5f664e580382defb63390041": {
-          "anonymous": false,
-          "inputs": [
-            {
-              "indexed": true,
-              "internalType": "address",
-              "name": "owner",
-              "type": "address"
-            },
-            {
-              "indexed": true,
-              "internalType": "uint256",
-              "name": "txIndex",
-              "type": "uint256"
-            }
-          ],
-          "name": "ConfirmTransaction",
-          "type": "event"
-        },
-        "0x90890809c654f11d6e72a28fa60149770a0d11ec6c92319d6ceb2bb0a4ea1a15": {
-          "anonymous": false,
-          "inputs": [
-            {
-              "indexed": true,
-              "internalType": "address",
-              "name": "sender",
-              "type": "address"
-            },
-            {
-              "indexed": false,
-              "internalType": "uint256",
-              "name": "amount",
-              "type": "uint256"
-            },
-            {
-              "indexed": false,
-              "internalType": "uint256",
-              "name": "balance",
-              "type": "uint256"
-            }
-          ],
-          "name": "Deposit",
-          "type": "event"
-        },
-        "0x5445f318f4f5fcfb66592e68e0cc5822aa15664039bd5f0ffde24c5a8142b1ac": {
-          "anonymous": false,
-          "inputs": [
-            {
-              "indexed": true,
-              "internalType": "address",
-              "name": "owner",
-              "type": "address"
-            },
-            {
-              "indexed": true,
-              "internalType": "uint256",
-              "name": "txIndex",
-              "type": "uint256"
-            }
-          ],
-          "name": "ExecuteTransaction",
-          "type": "event"
-        },
-        "0xf0dca620e2e81f7841d07bcc105e1704fb01475b278a9d4c236e1c62945edd55": {
-          "anonymous": false,
-          "inputs": [
-            {
-              "indexed": true,
-              "internalType": "address",
-              "name": "owner",
-              "type": "address"
-            },
-            {
-              "indexed": true,
-              "internalType": "uint256",
-              "name": "txIndex",
-              "type": "uint256"
-            }
-          ],
-          "name": "RevokeConfirmation",
-          "type": "event"
-        },
-        "0xd5a05bf70715ad82a09a756320284a1b54c9ff74cd0f8cce6219e79b563fe59d": {
-          "anonymous": false,
-          "inputs": [
-            {
-              "indexed": true,
-              "internalType": "address",
-              "name": "owner",
-              "type": "address"
-            },
-            {
-              "indexed": true,
-              "internalType": "uint256",
-              "name": "txIndex",
-              "type": "uint256"
-            },
-            {
-              "indexed": true,
-              "internalType": "address",
-              "name": "to",
-              "type": "address"
-            },
-            {
-              "indexed": false,
-              "internalType": "uint256",
-              "name": "value",
-              "type": "uint256"
-            },
-            {
-              "indexed": false,
-              "internalType": "bytes",
-              "name": "data",
-              "type": "bytes"
-            }
-          ],
-          "name": "SubmitTransaction",
-          "type": "event"
-        }
-      },
+    "5777": {
+      "events": {},
       "links": {},
-      "address": "0xBa8f05161f25542F53669D0eD980C1E22D65c712",
-      "transactionHash": "0x8f9fc19cc99c2f7e7035b5360c827a61009142e966dbecbde91089a1eed13ada"
+      "address": "0xc8Af515011744b74F82634eEA89774921ea6826c",
+      "transactionHash": "0xa990101cdd36c719a36ec264db793ca0cd74c0506175a52c326ac56e01eaca57"
     }
   },
   "schemaVersion": "3.4.13",
-  "updatedAt": "2023-04-21T17:49:44.979Z",
+  "updatedAt": "2023-04-22T05:45:33.930Z",
+  "networkType": "ethereum",
   "devdoc": {
     "methods": {}
   },

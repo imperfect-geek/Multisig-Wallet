@@ -16,6 +16,8 @@ function getNetwork(netId: number) {
       return "Rinkeby test network";
     case 42:
       return "Kovan test network";
+    case 5777:
+      return "Local Development Testnet"
     default:
       return "Unkown network";
   }
